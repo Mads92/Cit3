@@ -5,4 +5,12 @@
     <TargetFramework>net9.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="TcpServer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="TcpServer.cs" />
+  </ItemGroup>
+
 </Project>
