@@ -7,7 +7,7 @@ namespace Assignment3TestSuite;
 
 public class PartITests
 {
-    /*
+    
   //////////////////////////////////////////////////////////
   /// 
   /// Testing UrlParser class
@@ -39,10 +39,10 @@ public class PartITests
       // Assert
       Assert.True(result);
       Assert.True(urlParser.HasId);
-      Assert.Equal("5", urlParser.Id);
+      Assert.Equal("5", urlParser.Id.ToString());
       Assert.Equal("/api/categories", urlParser.Path);
   }
-    */
+   
 
   
   //////////////////////////////////////////////////////////
